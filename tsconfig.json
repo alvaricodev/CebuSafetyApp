@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["types/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "assets/**/*.png"],
+   // Add the image file extension here
+  "extends": "@tsconfig/react-native/tsconfig.json"
+}
